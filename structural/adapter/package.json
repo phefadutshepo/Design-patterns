@@ -1,0 +1,20 @@
+{
+  "name": "adapter",
+  "version": "1.0.0",
+  "description": "Adapter design pattern",
+  "license": "ISC",
+  "author": "Tshepo Phefadu",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && ts-node .",
+    "test": "test"
+  },
+  "dependencies": {
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
